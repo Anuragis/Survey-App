@@ -11,6 +11,7 @@ The signing up UI must allow the user to provide his email and intended password
 The app sends a verification email to the user upon registration with a verification code. The user needs to use that verification code to complete his account registration. A registered user cannot really use features in the app until his account is verified. A confirmation/welcome email must be sent to the user after completion of account verification.
 ## Survey Types and Question Types
 The following survey types are supported. 
+
 General survey: All participants will use the same invitation link to fill-in and submit the survey. Participants can be invited through emails, QR code, and URL. SurveyApe does not attempt to track whether the same person submit multiple surveys or not. An exception to this, however, is that if a user has signed into SurveyApe, he cannot take the same general survey more than once, or it is going to complicate the auto saving feature where  a signed-in user can pick up and resume an unfinished survey, whose progress was automatically saved last time.
 
 Closed invitation-only survey: Each participant is pre-registered by the owner and will have a unique invitation link. A particular invitation link can only be used once: once a user completed a survey through his/her invitation link, this link should be invalided.(This survey can only invited through email)
